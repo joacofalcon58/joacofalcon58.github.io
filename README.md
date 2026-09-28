@@ -24,6 +24,12 @@ Para agregar uno:
 2. Reemplazar tags, texto ES/EN (atributos `data-es` / `data-en`) y links de evidencia técnica.
 3. Sumar la imagen de portada a `assets/img/`.
 
+## Caché del navegador
+
+GitHub Pages cachea CSS/JS ~10 minutos. Al modificar `styles.css` o `main.js`,
+subir el número de versión en `index.html` (`styles.css?v=N`, `main.js?v=N`)
+para que los visitantes reciban el archivo nuevo junto con el HTML nuevo.
+
 ## Desarrollo local
 
 No requiere build. Basta con abrir `index.html` en el navegador, o servirlo con
